@@ -67,7 +67,7 @@ var multiplyFunction = function(x, y, z) {
 	return;
 
 };
-
+//division function
 var divisionFunction = function(x, y, z) {
 	if (z === "/") {
 		if (y === 0) {
