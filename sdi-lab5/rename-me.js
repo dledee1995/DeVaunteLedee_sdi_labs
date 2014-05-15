@@ -32,6 +32,7 @@ if (z === "+") {
 }
 
 // Functions
+//addition function
 var additionFunction = function(x, y, z) {
 
 	if (z === "+" && !isNaN(x)) {
@@ -45,6 +46,7 @@ var additionFunction = function(x, y, z) {
 
 };
 
+//subtration function
 var subtractionFunction = function(x, y, z) {
 	if (z === "-" && !isNaN(x)) {
 		//console.log(x - y);
