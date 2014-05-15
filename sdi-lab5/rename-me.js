@@ -57,6 +57,7 @@ var subtractionFunction = function(x, y, z) {
 	}
 
 };
+//multi function
 var multiplyFunction = function(x, y, z) {
 
 	if (z === "*" && !isNaN(x)) {
@@ -66,6 +67,7 @@ var multiplyFunction = function(x, y, z) {
 	return;
 
 };
+
 var divisionFunction = function(x, y, z) {
 	if (z === "/") {
 		if (y === 0) {
