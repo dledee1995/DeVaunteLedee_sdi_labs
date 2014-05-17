@@ -5,10 +5,10 @@ var myFunction = function() {
 	var nflTeams = ["Giants", "Panthers", "Broncos", "Ravens"];
 	var teamHomes = ["NewYork", "Carolina", "Denver", "Baltimore"];
 	var newTeam = "Arawaks";
-	
+	var newHome = "Orlando";
 
 	nflTeams.push(newTeam);
-	
+	teamHomes.push(newHome);
 	//for loop
 	for (var i = 0; i < nflTeams.length; i++) {
 
