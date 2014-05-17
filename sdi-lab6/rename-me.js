@@ -1,5 +1,5 @@
 //alert("JavaScript works!");
-
+//function
 var myFunction = function() {
 // Variables
 	var nflTeams = ["Giants", "Panthers", "Broncos", "Ravens"];
