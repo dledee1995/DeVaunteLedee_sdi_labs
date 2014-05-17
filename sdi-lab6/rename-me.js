@@ -1,7 +1,7 @@
 //alert("JavaScript works!");
 
 var myFunction = function() {
-
+// Variables
 	var nflTeams = ["Giants", "Panthers", "Broncos", "Ravens"];
 	var teamHomes = ["NewYork", "Carolina", "Denver", "Baltimore"];
 	var newTeam = "Arawaks";
