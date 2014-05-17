@@ -4,7 +4,10 @@ var myFunction = function() {
 	// Variables
 	var nflTeams = ["Giants", "Panthers", "Broncos", "Ravens"];
 	var teamHomes = ["NewYork", "Carolina", "Denver", "Baltimore"];
+	var newTeam = "Arawaks";
+	
 
+	nflTeams.push(newTeam);
 	
 	//for loop
 	for (var i = 0; i < nflTeams.length; i++) {
@@ -15,11 +18,11 @@ var myFunction = function() {
 
 	};
 	// return for array push
-	
+	return [nflTeams];
 
 	//console.log(newfirstName);
 
 };
-myFunction();
-
+var nfl = myFunction();
+console.log(nfl);
 
