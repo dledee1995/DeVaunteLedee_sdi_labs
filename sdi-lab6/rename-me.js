@@ -17,7 +17,7 @@ var myFunction = function() {
 		// };
 
 	};
-	
+	// return for array push
 	return [nflTeams];
 
 	//console.log(newfirstName);
