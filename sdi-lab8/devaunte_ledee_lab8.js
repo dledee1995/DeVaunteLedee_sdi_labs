@@ -57,6 +57,20 @@ var splitString = function(mySplit, b, c) {
 	
 	var newString = "";
 	var splitArray = mySplit.split(b);
+// For loop
+	for (var i = 0; i < splitArray.length; i++) {
+
+		if (newString === "") {
+			newString = splitArray[i];
+
+		} else {
+
+			newString = newString + c + splitArray[i];
+		}
+
+	}
+
+	console.log(" The array is: " + newString);
 
 };
 // Calling function
