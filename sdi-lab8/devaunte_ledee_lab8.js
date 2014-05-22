@@ -1,5 +1,5 @@
 //  Global Variables
-/*var testEmail = "dledee1995@gmail.com";
+var testEmail = "dledee1995@gmail.com";
  // Function
  var emailFunction = function(testEmail) {
 
@@ -43,36 +43,11 @@
 
  };
  // Calling the function
- emailFunction(testEmail);*/
+ emailFunction(testEmail);
 
 
 //  Variables
 var mySplit = "fork,spoon,spork";
 var b = ",";
 var c = "/";
-// Function
-var splitString = function(mySplit, b, c) {
-
-	console.log(" The array is: ", mySplit);
-	
-	var newString = "";
-	var splitArray = mySplit.split(b);
-// For loop
-	for (var i = 0; i < splitArray.length; i++) {
-
-		if (newString === "") {
-			newString = splitArray[i];
-
-		} else {
-
-			newString = newString + c + splitArray[i];
-		}
-
-	}
-
-	console.log(" The array is: " + newString);
-
-};
-// Calling function
-splitString(mySplit, b, c);
 
