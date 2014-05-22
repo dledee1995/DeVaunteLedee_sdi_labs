@@ -50,3 +50,15 @@
 var mySplit = "fork,spoon,spork";
 var b = ",";
 var c = "/";
+// Function
+var splitString = function(mySplit, b, c) {
+
+	console.log(" The array is: ", mySplit);
+	
+	var newString = "";
+	var splitArray = mySplit.split(b);
+
+};
+// Calling function
+splitString(mySplit, b, c);
+
